@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/draculaBackGround"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".AddListItem">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome do item"
+        android:inputType="textPersonName"
+        android:textColor="@color/draculaWhite"
+        android:textColorHint="@color/lightBackGround" />
+
+    <EditText
+        android:id="@+id/etDesc"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Descrição, caso precise"
+        android:inputType="textMultiLine"
+        android:textColor="@color/draculaWhite"
+        android:textColorHint="@color/lightBackGround" />
+
+    <EditText
+        android:id="@+id/etnQuant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Quantidade deste item"
+        android:inputType="number"
+        android:textColor="@color/draculaWhite"
+        android:textColorHint="@color/lightBackGround" />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/draculaAccent"
+        android:text="Adicionar a lista"
+        android:textColor="@color/draculaWhite" />
+</LinearLayout>

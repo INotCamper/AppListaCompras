@@ -60,7 +60,10 @@ Bom acho que é hora de falar dos participantes
 
 Isto poderia ser feito em dupla, e......
 
-1. Nathan Morsch Gartner - RM83047
+Eu :point_down:
+1. Nathan Morsch Gartner - RM83047 :octocat:
+2. Matheus de Souza Silva - RM83878 :goat:
+e minha dupla :point_up_2:
 
 Caramba quanta gente trabalhou nisso. :open_mouth:
 
